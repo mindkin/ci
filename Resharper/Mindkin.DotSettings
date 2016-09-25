@@ -62,6 +62,7 @@
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_ARRAY_INITIALIZER_STYLE/@EntryValue">CHOP_ALWAYS</s:String>
 	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_LIMIT/@EntryValue">180</s:Int64>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_MULTIPLE_DECLARATION_STYLE/@EntryValue">WRAP_IF_LONG</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CssFormatter/PROPERTIES_STYLE/@EntryValue">SEPARATE_LINES</s:String>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/HtmlFormatter/NormalizeTagNames/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/JavaScriptCodeFormatting/QUOTE_STYLE/@EntryValue">SingleQuoted</s:String>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/XmlDocFormatter/IndentTagContent/@EntryValue">DoNotTouch</s:String>
@@ -708,6 +709,32 @@ public class GivenA$context$: EndToEndTest&#xD;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D3D86680C14E8B42BC40E576EAB64991/Scope/=A14108D8199BD94191FC02A2809F1F3D/Type/@EntryValue">InHtmlLikeFile</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D3D86680C14E8B42BC40E576EAB64991/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D3D86680C14E8B42BC40E576EAB64991/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EFDF7D045C3C1341BE9A685545C976BE/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EFDF7D045C3C1341BE9A685545C976BE/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EFDF7D045C3C1341BE9A685545C976BE/Description/@EntryValue">ControllerRequestService</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EFDF7D045C3C1341BE9A685545C976BE/Field/=action/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EFDF7D045C3C1341BE9A685545C976BE/Field/=action/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EFDF7D045C3C1341BE9A685545C976BE/Field/=model/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EFDF7D045C3C1341BE9A685545C976BE/Field/=model/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EFDF7D045C3C1341BE9A685545C976BE/Field/=service/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EFDF7D045C3C1341BE9A685545C976BE/Field/=service/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EFDF7D045C3C1341BE9A685545C976BE/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EFDF7D045C3C1341BE9A685545C976BE/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EFDF7D045C3C1341BE9A685545C976BE/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EFDF7D045C3C1341BE9A685545C976BE/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EFDF7D045C3C1341BE9A685545C976BE/Shortcut/@EntryValue">controllerrequest</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EFDF7D045C3C1341BE9A685545C976BE/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EFDF7D045C3C1341BE9A685545C976BE/Text/@EntryValue">ControllerRequestService.executePromise({&#xD;
+                func: $service$.$action$,&#xD;
+				id: {},&#xD;
+				params:{},&#xD;
+                onSuccess: function(value) {&#xD;
+                    &#xD;
+                },&#xD;
+                onFailure: function() {&#xD;
+                    &#xD;
+                }&#xD;
+            }, $scope.model, '$model$');</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F97D6536341BCD42B46E812CE57621ED/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F97D6536341BCD42B46E812CE57621ED/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F97D6536341BCD42B46E812CE57621ED/Categories/=Imported_002011_002F11_002F2012/@EntryIndexedValue">Imported 11/11/2012</s:String>
