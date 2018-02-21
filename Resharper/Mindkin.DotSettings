@@ -848,6 +848,21 @@ public class GivenA$context$: EndToEndTest&#xD;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D3D86680C14E8B42BC40E576EAB64991/Scope/=A14108D8199BD94191FC02A2809F1F3D/Type/@EntryValue">InHtmlLikeFile</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D3D86680C14E8B42BC40E576EAB64991/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D3D86680C14E8B42BC40E576EAB64991/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Field/=condition/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Field/=condition/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Field/=timespan/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Field/=timespan/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Shortcut/@EntryValue">andWait</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Text/@EntryValue">FindElement.By.Name("$name$").AndWait(TimeSpan.FromSeconds($timespan$), ElementWaitCondition.Equals, element =&gt; element.$condition$);</s:String>
 	
 	
 	
