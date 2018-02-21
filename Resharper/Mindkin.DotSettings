@@ -639,6 +639,19 @@ namespace $rootnamespace$&#xD;
                 onFailure: function() {&#xD;
                 }&#xD;
             }, $scope.model, '$actionName$');</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Description/@EntryValue">Shortcut to TimeSpan Seconds</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Field/=time/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Field/=time/Expression/@EntryValue">list("3, 5, 10, 15")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Field/=time/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Shortcut/@EntryValue">Time</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Text/@EntryValue">TimeSpan.FromSeconds($time$),</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F3C2DDD10C50A4BAFF86203A1D188E0/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F3C2DDD10C50A4BAFF86203A1D188E0/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F3C2DDD10C50A4BAFF86203A1D188E0/Categories/=Imported_002012_002F16_002F2014/@EntryIndexedValue">Imported 12/16/2014</s:String>
