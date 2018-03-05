@@ -643,7 +643,7 @@ namespace $rootnamespace$&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Description/@EntryValue">Shortcut to TimeSpan Seconds</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Field/=time/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Field/=time/Expression/@EntryValue">list("3, 5, 10, 15")</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Field/=time/Expression/@EntryValue">list("3,5,10,15")</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Field/=time/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C858C906E948C4FB3B3496B2EAD2511/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
@@ -855,14 +855,18 @@ public class GivenA$context$: EndToEndTest&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Field/=name/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Field/=name/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Field/=timespan/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Field/=timespan/Expression/@EntryValue">list("1,3,5,10,15")</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Field/=timespan/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Field/=waitCondition/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Field/=waitCondition/Expression/@EntryValue">list("Equals,Exists,NotExists,Displayed,Hidden,Enabled,Disabled")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Field/=waitCondition/Order/@EntryValue">3</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Shortcut/@EntryValue">andWait</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Text/@EntryValue">FindElement.By.Name("$name$").AndWait(TimeSpan.FromSeconds($timespan$), ElementWaitCondition.Equals, element =&gt; element.$condition$);</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1169CC7CEDDCE4F9ED5525BF9D660F9/Text/@EntryValue">FindElement.By.Name("$name$").AndWait(TimeSpan.FromSeconds($timespan$), ElementWaitCondition.$waitCondition$, element =&gt; element.$condition$);</s:String>
 	
 	
 	
