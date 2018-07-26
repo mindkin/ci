@@ -1081,6 +1081,12 @@ describe('$name$.controller.spec', function () {&#xD;
 	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=17B5D92FD0BC53449F15879C0ECFC62E/Name/@EntryValue">Error</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=17B5D92FD0BC53449F15879C0ECFC62E/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;ERROR)(\W|$)(.*)</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=17B5D92FD0BC53449F15879C0ECFC62E/TodoIconStyle/@EntryValue">Error</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=CF2B039C553AC541A9B6E6C3EF2BB9C8/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=CF2B039C553AC541A9B6E6C3EF2BB9C8/Color/@EntryValue">WindowText</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=CF2B039C553AC541A9B6E6C3EF2BB9C8/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=CF2B039C553AC541A9B6E6C3EF2BB9C8/Name/@EntryValue">Note</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=CF2B039C553AC541A9B6E6C3EF2BB9C8/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;NOTE)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=CF2B039C553AC541A9B6E6C3EF2BB9C8/TodoIconStyle/@EntryValue">Normal</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=D99C5FDF5E9E8B4FB3DDE66AB6A66838/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=D99C5FDF5E9E8B4FB3DDE66AB6A66838/Color/@EntryValue">WindowText</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=D99C5FDF5E9E8B4FB3DDE66AB6A66838/MatchComments/@EntryValue">True</s:Boolean>
