@@ -1,4 +1,4 @@
-    $assemblyFile = "$env:APPVEYOR_BUILD_FOLDER\src\DirectoryBuild.props"
+    $assemblyFile = "$env:APPVEYOR_BUILD_FOLDER\src\Directory.Build.props"
     $regex = new-object System.Text.RegularExpressions.Regex ('((\<Version\>)(.*)(\<\/Version\>))', 
          [System.Text.RegularExpressions.RegexOptions]::MultiLine)
     $content = [IO.File]::ReadAllText($assemblyFile)
