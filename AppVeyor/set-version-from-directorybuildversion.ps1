@@ -5,7 +5,7 @@
     $version = $null
     $match = $regex.Match($content)
     if($match.Success) {
-        $version = $match.groups[2].value
+        $version = $match.groups[3].value
     }
 
     $version = "$version.$env:APPVEYOR_BUILD_NUMBER"
